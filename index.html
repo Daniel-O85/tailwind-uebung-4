@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------ Tailwind CSS Link --------->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <!------ Body Flex, Heigt 100%, Hintergrundfarbe....Start ------->
+  <body class="lg:flex h-full bg-stone-900">
+    <!------- Menüspalte Links...Start ------->
+
+    <!------- Menüspalte Überschrift...Start ------->
+    <div
+      class="text-4xl leading-loose border-solid border-4 border-cyan-600 text-stone-400 m-2"
+    >
+      <div class="m-5 mb-20">Dashboard</div>
+      <!------- Menüspalte Überschrift...Start ------->
+
+      <!------- Menüspalte Seitenlinks mit Icons...Start ------->
+      <div class="m-10 mt-20">
+        <div>
+          <div class="flex">
+            <img
+              class="ml-2 mr-10 m-5 invert"
+              src="./bilder/user.png"
+              alt=""
+            />User
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-start">
+            <img
+              class="ml-2 mr-10 m-5 invert"
+              src="./bilder/products.png"
+              alt=""
+            />Produkts
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-start">
+            <img
+              class="ml-2 mr-10 m-5 invert"
+              src="./bilder/calendar.png"
+              alt=""
+            />Event
+          </div>
+        </div>
+      </div>
+      <!------- Menüspalte Seitenlinks mit Icons...Ende ------->
+
+      <!------- Menüspalte LogOut...Start ------->
+      <div class="flex items-center m-10 mt-20">
+        <img class="m-2 mt-15 invert" src="./bilder/exit.png" alt="" />LogOut
+      </div>
+      <!------- Menüspalte LogOut...Ende ------->
+    </div>
+    <!------- Menüspalte Links...Ende ------->
+
+    <!---------- Main ein Grid mit 4 Spalten...Start ----------->
+    <main class="grid grid-cols-4 h-fit gap-2 mt-2 mr-2">
+      <!---------- Div Box-1 Bild Cameleon...Start ----------->
+      <div><img src="./bilder/animal-5.jpg" alt="" /></div>
+      <!---------- Div Box-1 Bild Cameleon...Ende ----------->
+
+      <!---------- Div Box-2 Bild Flamingo...Start ----------->
+      <div><img src="./bilder/animal-2.jpg" alt="" /></div>
+      <!---------- Div Box-2 Bild Flamingo...Ende ----------->
+
+      <!---------- Div Box-3 Bild Frösche...Start ----------->
+      <div><img src="./bilder/animal-3.jpg" alt="" /></div>
+      <!---------- Div Box-3 Bild Frösche...Ende ----------->
+
+      <!---------- Div Box-4 Bild Schmetterling...Start ----------->
+      <div><img src="./bilder/animal-4.jpg" alt="" /></div>
+      <!---------- Div Box-4 Bild Schmetterling...Ende ----------->
+
+      <!---------- Div Box-5 Tabelle auf 4 Spalten gestreckt...Start ----------->
+      <div class="col-span-4">
+        <table class="w-full text-center">
+          <tr class="bg-orange-500">
+            <th>Große Tiere</th>
+            <th>Kleine Tiere</th>
+          </tr>
+          <tr class="bg-orange-200">
+            <td>Elefant</td>
+            <td>Maus</td>
+          </tr>
+          <tr class="bg-orange-300">
+            <td>Giraffe</td>
+            <td>Erdmännchen</td>
+          </tr>
+          <tr class="bg-orange-200">
+            <td>Löwe</td>
+            <td>Frettchen</td>
+          </tr>
+          <tr class="bg-orange-300">
+            <td>Nielpferd</td>
+            <td>Ratte</td>
+          </tr>
+          <tr class="bg-orange-200">
+            <td>Nashorn</td>
+            <td>Meerschwein</td>
+          </tr>
+          <tr class="bg-orange-300">
+            <td>Büffel</td>
+            <td>Fuchs</td>
+          </tr>
+        </table>
+      </div>
+      <!---------- Div Box-5 Tabelle...Ende ----------->
+
+      <!---------- Div Box-6 Card auf 2 Spalten gestreckt...Start ----------->
+      <div
+        class="col-span-2 ml-auto mr-auto text-center text-stone-400 border-solid border-4 border-cyan-600 mb-2"
+      >
+        <div>
+          <img src="./bilder/avatar-mann.png" alt="" />
+          <h3 class="font-bold text-xl">Avatar Mann</h3>
+          <p>Zoo Direktor</p>
+        </div>
+      </div>
+      <!---------- Div Box-6 Card...Ende ----------->
+
+      <!---------- Div Box-7 Card auf 2 Spalten gestreckt...Start ----------->
+      <div
+        class="col-span-2 text-center ml-auto mr-auto text-stone-400 border-solid border-4 border-cyan-600 mb-2"
+      >
+        <div>
+          <img src="./bilder/avatar-frau.png" alt="" />
+          <h3 class="font-bold text-xl">Avatar Frau</h3>
+          <p>Zoo Direktorin</p>
+        </div>
+      </div>
+      <!---------- Div Box-7 Card...Ende ----------->
+    </main>
+    <!---------- Main...Ende ----------->
+  </body>
+  <!------- Body Ende -------->
+</html>
